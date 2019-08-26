@@ -1,4 +1,4 @@
-# Pursuit-Core-iOS-Paring-JSON-Lab
+# Pursuit-Core-iOS-Parsing-JSON-Lab
 
 ## Organizing Structure
 
