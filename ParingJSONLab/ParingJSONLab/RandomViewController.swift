@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RandomViewController.swift
 //  ParingJSONLab
 //
 //  Created by Tsering Lama on 11/25/19.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RandomViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
+    
 
 
 }
-
