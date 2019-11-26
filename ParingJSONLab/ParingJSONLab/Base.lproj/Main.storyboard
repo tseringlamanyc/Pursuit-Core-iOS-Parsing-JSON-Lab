@@ -259,7 +259,7 @@
         <scene sceneID="aPi-bv-Fnk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pnp-zK-ljY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Weather" id="r8T-K3-4uU"/>
+                    <tabBarItem key="tabBarItem" title="Weather" image="sun.min.fill" catalog="system" id="r8T-K3-4uU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VSf-0H-XvY">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -278,7 +278,7 @@
         <scene sceneID="a3V-4w-rhL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="98e-3P-UXb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Color" id="59V-BY-Bb8"/>
+                    <tabBarItem key="tabBarItem" title="Color" image="paintbrush.fill" catalog="system" id="59V-BY-Bb8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tcq-1t-VlZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -297,7 +297,7 @@
         <scene sceneID="IWp-Xx-gV7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RIy-uH-Yte" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Person" id="D1e-GJ-TyA"/>
+                    <tabBarItem key="tabBarItem" title="Person" image="person.fill" catalog="system" id="D1e-GJ-TyA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Bd-A2-Vlc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -313,4 +313,9 @@
             <point key="canvasLocation" x="1078.2608695652175" y="826.33928571428567"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="paintbrush.fill" catalog="system" width="64" height="62"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="sun.min.fill" catalog="system" width="64" height="60"/>
+    </resources>
 </document>

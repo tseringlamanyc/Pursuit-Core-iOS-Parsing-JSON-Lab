@@ -43,7 +43,7 @@ extension WeatherViewController: UITableViewDataSource {
          let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
         let data = weather[indexPath.row]
         cell.textLabel?.text = data.name
-        cell.detailTextLabel?.text = ("\(data.main["temp"] ?? 0.0)")
+        cell.detailTextLabel?.text = ("\(data.main["temp"] ?? 0.0) C˚")
         return cell
     }
 }
