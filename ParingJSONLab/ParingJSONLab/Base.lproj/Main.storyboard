@@ -155,6 +155,9 @@
                         <viewLayoutGuide key="safeArea" id="yxd-vA-sWU"/>
                     </view>
                     <navigationItem key="navigationItem" id="hmR-ki-sti"/>
+                    <connections>
+                        <outlet property="tableView" destination="Lqa-1e-5mr" id="Cc6-yp-R0o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yha-IK-QM7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -271,11 +274,11 @@
             </objects>
             <point key="canvasLocation" x="1066.6666666666667" y="-546.42857142857144"/>
         </scene>
-        <!--COlor-->
+        <!--Color-->
         <scene sceneID="a3V-4w-rhL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="98e-3P-UXb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="COlor" id="59V-BY-Bb8"/>
+                    <tabBarItem key="tabBarItem" title="Color" id="59V-BY-Bb8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tcq-1t-VlZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
