@@ -21,6 +21,9 @@
 		527DFCEF238CD37000172AB6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCEE238CD37000172AB6 /* Weather.swift */; };
 		527DFCF1238CD98C00172AB6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCF0238CD98C00172AB6 /* Color.swift */; };
 		527DFCF3238CDA2600172AB6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCF2238CDA2600172AB6 /* Random.swift */; };
+		52FC8DC3238D6F1D0075D1B8 /* DetailWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC8DC2238D6F1D0075D1B8 /* DetailWeatherViewController.swift */; };
+		52FC8DC5238D6F2F0075D1B8 /* DetailColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC8DC4238D6F2F0075D1B8 /* DetailColorViewController.swift */; };
+		52FC8DC7238D6F380075D1B8 /* DetailRandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC8DC6238D6F380075D1B8 /* DetailRandomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		527DFCEE238CD37000172AB6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		527DFCF0238CD98C00172AB6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		527DFCF2238CDA2600172AB6 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		52FC8DC2238D6F1D0075D1B8 /* DetailWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherViewController.swift; sourceTree = "<group>"; };
+		52FC8DC4238D6F2F0075D1B8 /* DetailColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorViewController.swift; sourceTree = "<group>"; };
+		52FC8DC6238D6F380075D1B8 /* DetailRandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRandomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				527DFCEA238C8C3400172AB6 /* ColorViewController.swift */,
 				527DFCEC238C8C4100172AB6 /* RandomViewController.swift */,
 				527DFCD6238C86B600172AB6 /* Main.storyboard */,
+				52FC8DC2238D6F1D0075D1B8 /* DetailWeatherViewController.swift */,
+				52FC8DC4238D6F2F0075D1B8 /* DetailColorViewController.swift */,
+				52FC8DC6238D6F380075D1B8 /* DetailRandomViewController.swift */,
 				527DFCE4238C895B00172AB6 /* weather.json */,
 				527DFCEE238CD37000172AB6 /* Weather.swift */,
 				527DFCE6238C897900172AB6 /* color.json */,
@@ -165,12 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FC8DC7238D6F380075D1B8 /* DetailRandomViewController.swift in Sources */,
 				527DFCF3238CDA2600172AB6 /* Random.swift in Sources */,
 				527DFCED238C8C4100172AB6 /* RandomViewController.swift in Sources */,
 				527DFCD5238C86B600172AB6 /* WeatherViewController.swift in Sources */,
+				52FC8DC3238D6F1D0075D1B8 /* DetailWeatherViewController.swift in Sources */,
 				527DFCF1238CD98C00172AB6 /* Color.swift in Sources */,
 				527DFCD1238C86B600172AB6 /* AppDelegate.swift in Sources */,
 				527DFCEB238C8C3400172AB6 /* ColorViewController.swift in Sources */,
+				52FC8DC5238D6F2F0075D1B8 /* DetailColorViewController.swift in Sources */,
 				527DFCEF238CD37000172AB6 /* Weather.swift in Sources */,
 				527DFCD3238C86B600172AB6 /* SceneDelegate.swift in Sources */,
 			);
