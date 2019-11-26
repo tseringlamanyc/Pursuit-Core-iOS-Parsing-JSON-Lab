@@ -16,8 +16,13 @@ struct WeatherData: Codable {
 struct Weather: Codable {
     
     let name: String
-    let main: [String: Double] 
+    let main: [String: Double]
+    let weather: [Conditions]
+}
+
+struct Conditions: Codable {
     
+    let description: String
     
 }
 

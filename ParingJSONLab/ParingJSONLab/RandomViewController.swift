@@ -41,7 +41,7 @@ extension RandomViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personCell", for: indexPath)
         let people = person[indexPath.row]
-        cell.textLabel?.text = people.name["first"]
+        cell.textLabel?.text = "\(people.name["first"] ?? "") \(people.name["last"] ?? "")"
         cell.detailTextLabel?.text = people.email
         return cell
     }

@@ -29,6 +29,13 @@ class WeatherViewController: UIViewController {
     func loadData() {
         weather = WeatherData.getWeather()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailWeather = segue.destination as? DetailWeatherViewController, let indexpath = tableView.indexPathForSelectedRow else {
+            fatalError()
+        }
+        detailWeather.oneWeather = weather[indexpath.row]
+    }
 
 
 }

@@ -19,7 +19,6 @@ struct Color: Codable {
     let hex: [String: String]
     let name: ColorName
     let rgb: Rgb
-    
 }
 
 struct ColorName: Codable {
@@ -27,11 +26,9 @@ struct ColorName: Codable {
 }
 
 struct Rgb: Codable {
-    
     var r: Double
     var b: Double
     var g: Double
-    
 }
 
 
