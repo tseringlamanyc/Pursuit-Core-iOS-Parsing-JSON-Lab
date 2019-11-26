@@ -818,6 +818,252 @@
                 }
             },
             "_embedded": {}
+        },
+        {
+            "hex": {
+                "value": "#15DF2B",
+                "clean": "15DF2B"
+            },
+            "rgb": {
+                "fraction": {
+                    "r": 0.08235294117647059,
+                    "g": 0.8745098039215686,
+                    "b": 0.16862745098039217
+                },
+                "r": 21,
+                "g": 223,
+                "b": 43,
+                "value": "rgb(21, 223, 43)"
+            },
+            "hsl": {
+                "fraction": {
+                    "h": 0.35148514851485146,
+                    "s": 0.8278688524590163,
+                    "l": 0.47843137254901963
+                },
+                "h": 127,
+                "s": 83,
+                "l": 48,
+                "value": "hsl(127, 83%, 48%)"
+            },
+            "hsv": {
+                "fraction": {
+                    "h": 0.35148514851485146,
+                    "s": 0.905829596412556,
+                    "v": 0.8745098039215686
+                },
+                "value": "hsv(127, 91%, 87%)",
+                "h": 127,
+                "s": 91,
+                "v": 87
+            },
+            "name": {
+                "value": "Malachite",
+                "closest_named_hex": "#0BDA51",
+                "exact_match_name": false,
+                "distance": 2619
+            },
+            "cmyk": {
+                "fraction": {
+                    "c": 0.905829596412556,
+                    "m": 0,
+                    "y": 0.8071748878923766,
+                    "k": 0.12549019607843137
+                },
+                "value": "cmyk(91, 0, 81, 13)",
+                "c": 91,
+                "m": 0,
+                "y": 81,
+                "k": 13
+            },
+            "XYZ": {
+                "fraction": {
+                    "X": 0.37712431372549016,
+                    "Y": 0.6551325490196077,
+                    "Z": 0.2661113725490196
+                },
+                "value": "XYZ(38, 66, 27)",
+                "X": 38,
+                "Y": 66,
+                "Z": 27
+            },
+            "image": {
+                "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=15DF2B",
+                "named": "http://www.thecolorapi.com/id?format=svg&hex=15DF2B"
+            },
+            "contrast": {
+                "value": "#000000"
+            },
+            "_links": {
+                "self": {
+                    "href": "/id?hex=15DF2B"
+                }
+            },
+            "_embedded": {}
+        },
+        {
+            "hex": {
+                "value": "#0A0A0A",
+                "clean": "0A0A0A"
+            },
+            "rgb": {
+                "fraction": {
+                    "r": 0.0392156862745098,
+                    "g": 0.0392156862745098,
+                    "b": 0.0392156862745098
+                },
+                "r": 10,
+                "g": 10,
+                "b": 10,
+                "value": "rgb(10, 10, 10)"
+            },
+            "hsl": {
+                "fraction": {
+                    "h": 0,
+                    "s": 0,
+                    "l": 0.0392156862745098
+                },
+                "h": 0,
+                "s": 0,
+                "l": 4,
+                "value": "hsl(0, 0%, 4%)"
+            },
+            "hsv": {
+                "fraction": {
+                    "h": 0,
+                    "s": 0,
+                    "v": 0.0392156862745098
+                },
+                "value": "hsv(0, 0%, 4%)",
+                "h": 0,
+                "s": 0,
+                "v": 4
+            },
+            "name": {
+                "value": "Cod Gray",
+                "closest_named_hex": "#0B0B0B",
+                "exact_match_name": false,
+                "distance": 5
+            },
+            "cmyk": {
+                "fraction": {
+                    "c": 0,
+                    "m": 0,
+                    "y": 0,
+                    "k": 0.9607843137254902
+                },
+                "value": "cmyk(0, 0, 0, 96)",
+                "c": 0,
+                "m": 0,
+                "y": 0,
+                "k": 96
+            },
+            "XYZ": {
+                "fraction": {
+                    "X": 0.037274509803921566,
+                    "Y": 0.039215686274509796,
+                    "Z": 0.04270588235294118
+                },
+                "value": "XYZ(4, 4, 4)",
+                "X": 4,
+                "Y": 4,
+                "Z": 4
+            },
+            "image": {
+                "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=0A0A0A",
+                "named": "http://www.thecolorapi.com/id?format=svg&hex=0A0A0A"
+            },
+            "contrast": {
+                "value": "#FFFFFF"
+            },
+            "_links": {
+                "self": {
+                    "href": "/id?hex=0A0A0A"
+                }
+            },
+            "_embedded": {}
+        },
+        {
+            "hex": {
+                "value": "#645A50",
+                "clean": "645A50"
+            },
+            "rgb": {
+                "fraction": {
+                    "r": 0.39215686274509803,
+                    "g": 0.35294117647058826,
+                    "b": 0.3137254901960784
+                },
+                "r": 100,
+                "g": 90,
+                "b": 80,
+                "value": "rgb(100, 90, 80)"
+            },
+            "hsl": {
+                "fraction": {
+                    "h": 0.08333333333333348,
+                    "s": 0.11111111111111112,
+                    "l": 0.3529411764705882
+                },
+                "h": 30,
+                "s": 11,
+                "l": 35,
+                "value": "hsl(30, 11%, 35%)"
+            },
+            "hsv": {
+                "fraction": {
+                    "h": 0.08333333333333348,
+                    "s": 0.2,
+                    "v": 0.39215686274509803
+                },
+                "value": "hsv(30, 20%, 39%)",
+                "h": 30,
+                "s": 20,
+                "v": 39
+            },
+            "name": {
+                "value": "Soya Bean",
+                "closest_named_hex": "#6A6051",
+                "exact_match_name": false,
+                "distance": 209
+            },
+            "cmyk": {
+                "fraction": {
+                    "c": 0,
+                    "m": 0.09999999999999966,
+                    "y": 0.1999999999999999,
+                    "k": 0.607843137254902
+                },
+                "value": "cmyk(0, 10, 20, 61)",
+                "c": 0,
+                "m": 10,
+                "y": 20,
+                "k": 61
+            },
+            "XYZ": {
+                "fraction": {
+                    "X": 0.3445647058823529,
+                    "Y": 0.3584470588235294,
+                    "Z": 0.347835294117647
+                },
+                "value": "XYZ(34, 36, 35)",
+                "X": 34,
+                "Y": 36,
+                "Z": 35
+            },
+            "image": {
+                "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=645A50",
+                "named": "http://www.thecolorapi.com/id?format=svg&hex=645A50"
+            },
+            "contrast": {
+                "value": "#FFFFFF"
+            },
+            "_links": {
+                "self": {
+                    "href": "/id?hex=645A50"
+                }
+            },
+            "_embedded": {}
         }
     ]
 }

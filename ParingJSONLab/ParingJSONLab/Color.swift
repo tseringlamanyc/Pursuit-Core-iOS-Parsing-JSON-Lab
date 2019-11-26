@@ -27,6 +27,7 @@ struct ColorName: Codable {
 }
 
 struct Rgb: Codable {
+    
     var r: Double
     var b: Double
     var g: Double
