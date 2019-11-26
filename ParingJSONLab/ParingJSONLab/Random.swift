@@ -16,8 +16,9 @@ struct PersonData: Codable {
 
 struct Person: Codable {
     
+//    let name: String
     let email: String
-    let name: String
+    
     
 }
 
@@ -35,7 +36,7 @@ extension PersonData {
             let personData = try JSONDecoder().decode(PersonData.self, from: data)
             arr = personData.results
         } catch {
-            fatalError()
+            fatalError("\(error)")
         }
         
         return arr
