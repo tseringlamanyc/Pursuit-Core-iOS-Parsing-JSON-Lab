@@ -19,6 +19,8 @@
 		527DFCEB238C8C3400172AB6 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCEA238C8C3400172AB6 /* ColorViewController.swift */; };
 		527DFCED238C8C4100172AB6 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCEC238C8C4100172AB6 /* RandomViewController.swift */; };
 		527DFCEF238CD37000172AB6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCEE238CD37000172AB6 /* Weather.swift */; };
+		527DFCF1238CD98C00172AB6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCF0238CD98C00172AB6 /* Color.swift */; };
+		527DFCF3238CDA2600172AB6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCF2238CDA2600172AB6 /* Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		527DFCEA238C8C3400172AB6 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		527DFCEC238C8C4100172AB6 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		527DFCEE238CD37000172AB6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		527DFCF0238CD98C00172AB6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		527DFCF2238CDA2600172AB6 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,9 @@
 				527DFCE4238C895B00172AB6 /* weather.json */,
 				527DFCEE238CD37000172AB6 /* Weather.swift */,
 				527DFCE6238C897900172AB6 /* color.json */,
+				527DFCF0238CD98C00172AB6 /* Color.swift */,
 				527DFCE8238C898200172AB6 /* random.json */,
+				527DFCF2238CDA2600172AB6 /* Random.swift */,
 				527DFCD9238C86B900172AB6 /* Assets.xcassets */,
 				527DFCDB238C86B900172AB6 /* LaunchScreen.storyboard */,
 				527DFCDE238C86B900172AB6 /* Info.plist */,
@@ -159,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527DFCF3238CDA2600172AB6 /* Random.swift in Sources */,
 				527DFCED238C8C4100172AB6 /* RandomViewController.swift in Sources */,
 				527DFCD5238C86B600172AB6 /* WeatherViewController.swift in Sources */,
+				527DFCF1238CD98C00172AB6 /* Color.swift in Sources */,
 				527DFCD1238C86B600172AB6 /* AppDelegate.swift in Sources */,
 				527DFCEB238C8C3400172AB6 /* ColorViewController.swift in Sources */,
 				527DFCEF238CD37000172AB6 /* Weather.swift in Sources */,
