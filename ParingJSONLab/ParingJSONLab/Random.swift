@@ -16,7 +16,7 @@ struct PersonData: Codable {
 
 struct Person: Codable {
     
-//    let name: String
+    let name: [String: String] 
     let email: String
     
     
