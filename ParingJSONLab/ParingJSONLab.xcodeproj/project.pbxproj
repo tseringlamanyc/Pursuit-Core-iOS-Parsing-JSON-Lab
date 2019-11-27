@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523D2693238E1EC6006B1FED /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D2692238E1EC6006B1FED /* ImageClient.swift */; };
 		527DFCD1238C86B600172AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCD0238C86B600172AB6 /* AppDelegate.swift */; };
 		527DFCD3238C86B600172AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCD2238C86B600172AB6 /* SceneDelegate.swift */; };
 		527DFCD5238C86B600172AB6 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DFCD4238C86B600172AB6 /* WeatherViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523D2692238E1EC6006B1FED /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
 		527DFCCD238C86B600172AB6 /* ParingJSONLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParingJSONLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527DFCD0238C86B600172AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527DFCD2238C86B600172AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				527DFCE6238C897900172AB6 /* color.json */,
 				527DFCF0238CD98C00172AB6 /* Color.swift */,
 				527DFCE8238C898200172AB6 /* random.json */,
+				523D2692238E1EC6006B1FED /* ImageClient.swift */,
 				527DFCF2238CDA2600172AB6 /* Random.swift */,
 				527DFCD9238C86B900172AB6 /* Assets.xcassets */,
 				527DFCDB238C86B900172AB6 /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 				527DFCD5238C86B600172AB6 /* WeatherViewController.swift in Sources */,
 				52FC8DC3238D6F1D0075D1B8 /* DetailWeatherViewController.swift in Sources */,
 				527DFCF1238CD98C00172AB6 /* Color.swift in Sources */,
+				523D2693238E1EC6006B1FED /* ImageClient.swift in Sources */,
 				527DFCD1238C86B600172AB6 /* AppDelegate.swift in Sources */,
 				527DFCEB238C8C3400172AB6 /* ColorViewController.swift in Sources */,
 				52FC8DC5238D6F2F0075D1B8 /* DetailColorViewController.swift in Sources */,

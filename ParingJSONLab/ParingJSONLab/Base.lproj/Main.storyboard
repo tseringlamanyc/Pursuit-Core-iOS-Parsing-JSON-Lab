@@ -337,6 +337,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jfF-GT-Ccv">
+                                <rect key="frame" x="0.0" y="247.5" width="414" height="358.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -344,8 +347,12 @@
                             <constraint firstItem="CiP-VD-z4X" firstAttribute="top" secondItem="QoB-66-5df" secondAttribute="top" constant="37" id="Gmq-Wy-VJc"/>
                             <constraint firstItem="QoB-66-5df" firstAttribute="trailing" secondItem="CiP-VD-z4X" secondAttribute="trailing" constant="20" id="XrS-A8-3ST"/>
                             <constraint firstItem="QoB-66-5df" firstAttribute="trailing" secondItem="84k-st-J7w" secondAttribute="trailing" constant="20" id="XtY-GQ-Dd2"/>
+                            <constraint firstItem="jfF-GT-Ccv" firstAttribute="top" secondItem="RBY-V6-KFU" secondAttribute="bottom" constant="20" id="aYl-ZE-36N"/>
+                            <constraint firstItem="jfF-GT-Ccv" firstAttribute="height" secondItem="pgP-MH-kKM" secondAttribute="height" multiplier="0.4" id="akx-3V-oir"/>
                             <constraint firstItem="RBY-V6-KFU" firstAttribute="top" secondItem="84k-st-J7w" secondAttribute="bottom" constant="20" id="ihw-Kg-dAe"/>
+                            <constraint firstItem="jfF-GT-Ccv" firstAttribute="trailing" secondItem="QoB-66-5df" secondAttribute="trailing" id="k65-ho-20o"/>
                             <constraint firstItem="QoB-66-5df" firstAttribute="trailing" secondItem="RBY-V6-KFU" secondAttribute="trailing" constant="20" id="kxy-MD-YE3"/>
+                            <constraint firstItem="jfF-GT-Ccv" firstAttribute="leading" secondItem="QoB-66-5df" secondAttribute="leading" id="mTC-bf-ENd"/>
                             <constraint firstItem="84k-st-J7w" firstAttribute="leading" secondItem="QoB-66-5df" secondAttribute="leading" constant="20" id="nid-MP-yVY"/>
                             <constraint firstItem="RBY-V6-KFU" firstAttribute="leading" secondItem="QoB-66-5df" secondAttribute="leading" constant="20" id="utB-fr-NqJ"/>
                             <constraint firstItem="CiP-VD-z4X" firstAttribute="leading" secondItem="QoB-66-5df" secondAttribute="leading" constant="20" id="xfr-fb-Nh3"/>
@@ -356,6 +363,7 @@
                     <connections>
                         <outlet property="dateOfBirth" destination="RBY-V6-KFU" id="7RP-d6-dfZ"/>
                         <outlet property="fullAddressText" destination="CiP-VD-z4X" id="D90-wI-Tu1"/>
+                        <outlet property="personImage" destination="jfF-GT-Ccv" id="Z8a-5b-zJa"/>
                         <outlet property="phoneNumberText" destination="84k-st-J7w" id="34K-EJ-ihm"/>
                     </connections>
                 </viewController>

@@ -21,6 +21,7 @@ struct Person: Codable {
     let phone: String
     let dob: BirthDate
     let location: Locations
+    let picture: MultiMedia
 }
 
 struct BirthDate: Codable{
@@ -38,6 +39,13 @@ struct FirstAddress: Codable{
     var number: Int
     var name: String
 }
+
+struct MultiMedia: Codable {
+    var large: String
+    
+}
+
+
 
 
 
