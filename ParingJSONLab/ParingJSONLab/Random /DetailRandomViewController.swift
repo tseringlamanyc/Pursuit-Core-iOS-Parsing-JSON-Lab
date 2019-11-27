@@ -28,8 +28,24 @@ class DetailRandomViewController: UIViewController {
         guard let random = random else {
             fatalError()
         }
+        let isoDateFormatter = ISO8601DateFormatter()
+        isoDateFormatter.formatOptions = [.withInternetDateTime,
+                                          .withDashSeparatorInDate,
+                                          .withFullDate,
+                                          .withFractionalSeconds,
+                                          .withColonSeparatorInTimeZone]
+        isoDateFormatter.timeZone = TimeZone.current
+        let timestamp = isoDateFormatter.string(from: Date())
+        let timestampString = random.dob.date
+        if let date = isoDateFormatter.date(from: timestampString) {
+        let dateFormatter = DateFormatter()
+          dateFormatter.dateFormat = "MMMM, dd, yyyy h:mm a"
+        let dateFormattedString = dateFormatter.string(from: date)
+            dateOfBirth.text = dateFormattedString
+        } else {
+        print("not a valid date")
+        }
         phoneNumberText.text = "Phone number: \(random.phone)"
-        dateOfBirth.text = "DOB: \(random.dob.date)"
         fullAddressText.text = fullAddress()
         
         ImageCLient.getImage(urlString: random.picture.large) { [unowned self] (result) in
