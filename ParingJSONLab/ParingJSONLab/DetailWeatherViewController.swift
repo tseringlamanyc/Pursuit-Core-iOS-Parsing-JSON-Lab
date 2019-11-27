@@ -17,7 +17,8 @@ class DetailWeatherViewController: UIViewController {
     
     func loadDetails() {
         currentTemp.text = "Current temperature is \(oneWeather.main["temp"] ?? 0.0)˚C"
-        weatherText.text = oneWeather.weather.description
+        let weatherDescription = oneWeather.weather.first?.description
+        weatherText.text = weatherDescription
         
     }
     
