@@ -25,9 +25,9 @@ class DetailColorViewController: UIViewController {
     
     func loadData() {
         hexText.text = "Hex value: \(color.hex["clean"] ?? "")"
-        redText.text = "Red: \((color.rgb.r / 255).description)"
-        blueText.text = "Blue: \((color.rgb.b / 255).description)"
-        greenText.text = "Green: \((color.rgb.g / 255).description)"
+        redText.text = "Red \(String(format: "%.1f", color.rgb.r / 255).description)"
+        blueText.text = "Blue \(String(format: "%.1f", color.rgb.b / 255).description)"
+        greenText.text = "Green \(String(format: "%.1f", color.rgb.g / 255).description)"
     }
     
 
