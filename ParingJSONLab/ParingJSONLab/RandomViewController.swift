@@ -29,6 +29,13 @@ class RandomViewController: UIViewController {
     func loadData() {
         person = PersonData.getPerson()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let randomDetail = segue.destination as? DetailRandomViewController, let indexpath = tableView.indexPathForSelectedRow else {
+            fatalError()
+        }
+        randomDetail.random = person[indexpath.row]
+    }
 
 }
 

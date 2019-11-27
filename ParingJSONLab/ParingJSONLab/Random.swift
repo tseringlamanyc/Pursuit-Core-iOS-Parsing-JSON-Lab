@@ -18,9 +18,29 @@ struct Person: Codable {
     
     let name: [String: String] 
     let email: String
-   
-    
+    let phone: String
+    let dob: BirthDate
+    let location: Locations
 }
+
+struct BirthDate: Codable{
+    var date: String
+}
+
+struct Locations: Codable {
+    var street: FirstAddress
+    var city: String
+    var state: String
+    var country: String
+}
+
+struct FirstAddress: Codable{
+    var number: Int
+    var name: String
+}
+
+
+
 
 extension PersonData {
     
