@@ -29,6 +29,13 @@ class ColorViewController: UIViewController {
     func loadData() {
         colors = ColorData.getColors()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailColor = segue.destination as? DetailColorViewController, let indexpath = tableView.indexPathForSelectedRow else {
+            fatalError()
+        }
+        detailColor.color = colors[indexpath.row]
+    }
  
 
 }
